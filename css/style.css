@@ -1,0 +1,213 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+p {
+	font-weight: 500;
+	font-style: italic;
+}
+
+.container {
+	max-width: 1240px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.banner_hero {
+	background-image: url(../images/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 958px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner_txtbox {
+	color: #fff;
+	width: 304px;
+}
+
+.banner_txtbox span {
+	line-height: 2;
+	font-style: italic;
+}
+
+.banner_txtbox h1 {
+	font-size: 5rem;
+	line-height: 1.325;
+	margin: 0;
+	font-style: italic;
+}
+
+.banner_txtbox p {
+	line-height: 1.5;
+	margin: 2rem 0 2.5rem;
+}
+
+.banner_iconbox {
+	display: flex;
+	justify-content: space-between;
+}
+
+.section_about {
+	padding: 0 0 4.5rem;
+}
+
+.section_about .container {
+	max-width: 452px;
+}
+
+.section_title {
+	font-size: 4rem;
+	line-height: 84px;
+	font-style: italic;
+	text-align: center;
+	padding: 56px 0 40px;
+	margin: 0;
+}
+
+.about_img {
+	line-height: 0;
+	text-align: center;
+}
+
+.about_me {
+	text-align: center;
+}
+
+.about_me_name {
+	margin: 20px 0 4px;
+}
+.about_me_birth {
+	margin: 0 0 8px;
+}
+.about_me_text {
+	margin: 0 0 28px;
+	padding-bottom: 24px;
+	border-bottom: 1px solid #000;
+}
+
+.about_me_experience {
+	margin: 28px 0;
+	line-height: 1.75;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about_me_experience:last-child {
+	margin-bottom: 0;
+}
+
+.about_me_icon {
+	width: 22px;
+	height: 22px;
+	background-color: #891818;
+	border-radius: 50%;
+	margin-right: 1rem;
+}
+
+.section_brand {
+	background-color: #000000;
+	padding-bottom: 10rem;
+}
+
+.section_brand .section_title {
+	padding-bottom: 12px;
+	color: #fff;
+}
+
+.brand_txtbox {
+	margin-bottom: 68px;
+	text-align: center;
+}
+
+.brand_eng {
+	color: #fff;
+	margin-bottom: 32px;
+}
+
+.brand_zhtw {
+	font-size: 20px;
+	line-height: 30px;
+	color: #fff;
+	max-width: 320px;
+	margin: 0 auto;
+	font-style: normal;
+}
+
+.brand_imgbox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	line-height: 0;
+}
+
+.brand_imgbox_1 {
+	margin-bottom: 40px;
+}
+
+.section_works {
+	padding-bottom: 144px;
+}
+
+.section_works .section_title {
+	padding-bottom: 16px;
+}
+
+.works_zhtw {
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	margin: 0 0 56px;
+}
+
+.works_lists {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.works_list_1 {
+	margin-top: 48px;
+}
+
+.works_list_img {
+	line-height: 0;
+}
+
+.works_list_title {
+	font-size: 20px;
+	line-height: 42px;
+	text-align: center;
+	margin: 16px 0 0;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 48px;
+}
+
+footer .section_title {
+	color: #fff;
+	padding: 64px 0 16px;
+}
+
+footer > div {
+	padding-bottom: 16px;
+	font-style: italic;
+} 
+
+footer a:link, footer a:visited {
+	color: #fff;
+	text-decoration: none;
+}
